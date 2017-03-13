@@ -4,7 +4,22 @@
 <img src="vs2017.jpeg"/>
 </p>
 
+<br>
+
+# Visual Studio 2017 Launch!
+We are happy to announce the release of Visual Studio 2017. This release brings a new lightweight and modular installation experience which can be tailored to your needs.
+
+Use Visual Studio 2017 to develop apps for Android, iOS, Windows, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this new release!
+
+You can find the Visaul Studio 2017 Launch Keynote demo <a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100">from here</a>
+
+And you can download the Visaul Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>
+
 ## VS2017 KeyNote Demo Scripts
+
+These are individual feature demos targetted towards developers. Each demo explains the feature and the value prop of the feature in detail.
+
+**Note** - All of the VSE features and Xamarin demos are based on the **BikeSharing360** application
 
 <br>
 
