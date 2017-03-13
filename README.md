@@ -1,4 +1,4 @@
-# VS2017-Launch-Keynote-Demos
+# Visual Studio 2017-Launch-Keynote-Demos
 
 <p align="center">
 <img src="vs2017.jpeg"/>
@@ -15,7 +15,7 @@ You can find the Visaul Studio 2017 Launch Keynote demo <a href="https://channel
 
 And you can download the Visaul Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>
 
-## VS2017 KeyNote Demo Scripts
+## Visual Studio 2017 KeyNote Demo Scripts
 
 These are individual feature demos targetted towards developers. Each demo explains the feature and the value prop of the feature in detail.
 
