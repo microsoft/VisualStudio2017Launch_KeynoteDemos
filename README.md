@@ -1,4 +1,4 @@
-# VS2017-Canarys-Demo-Scripts
+# VS2017-Launch-Keynote-Demos
 
 <p align="center">
 <img src="vs2017.jpeg"/>
