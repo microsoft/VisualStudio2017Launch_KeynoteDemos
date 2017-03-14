@@ -13,7 +13,7 @@ Use Visual Studio 2017 to develop apps for Android, iOS, Windows, web, and cloud
 
 You can find the Visaul Studio 2017 Launch Keynote demo <a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100">from here</a>
 
-And you can download the Visaul Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>
+And you can download the Visual Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>
 
 ## Visual Studio 2017 KeyNote Demo Scripts
 
