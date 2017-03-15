@@ -37,7 +37,7 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td>Visual Studio 2017 Install and Performance</td>
 <td><a href="/Installation and better Performance">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h15m37s">Demo Video</a></td>
-<td><a href="https://github.com/Microsoft/BikeSharing360_Websites">Source Code</a></td>
+<td><a href="https://github.com/Microsoft/BikeSharing360_Productivity">Source Code</a></td>
 </tr>
 <tr>
 <td>Visual Studio 2017 Productivity</td>
@@ -57,8 +57,8 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td>Microservices and Docker</td>
 <td><a href="/Microservices and Docker">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h42m22s">Demo Video</a></td>
-<td><a href="https://github.com/Microsoft/BikeSharing360_SingleContainer/" >BikeSharing360-Single</a>
-   <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >BikeSharing360-Multi</a></td>
+<td><a href="https://github.com/Microsoft/BikeSharing360_SingleContainer/" >Single-container Source Code</a>
+  <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >Multi-container BikeSharing360-Multi</a></td>
 
 </tr>
 <tr>
