@@ -36,7 +36,7 @@ Bike Riders can download a cross-platform mobile app to:
 
 - Get personalized recommendations for events & purchase what you need from your phone
 
-- Issues on the road? Chat with **Bike911** bot, your personal assistant on your phone and rental stations.
+- Issues on the road? Chat with **BikeSharing360** bot, your personal assistant on your phone and rental stations.
 
   <img src ="media/1.png" width="624"/>
 
