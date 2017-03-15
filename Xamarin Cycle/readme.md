@@ -116,7 +116,7 @@ Bike Riders can download a cross-platform mobile app to:
 
    <img src ="media/12.png" width="624"/>
 
-5. In the URL field, enter the MyItems app clone URL: https://github.com/Microsoft/VisualStudio2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample.git. Click **Clone** button and wait for cloning to complete.
+5. In the URL field, enter the MyItems app clone URL: https://github.com/Microsoft/BikeSharing360_MobileApps. Click **Clone** button and wait for cloning to complete.
 
    <img src ="media/13.png" width="624"/>
 
