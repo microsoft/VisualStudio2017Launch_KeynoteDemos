@@ -116,7 +116,7 @@ Bike Riders can download a cross-platform mobile app to:
 
    <img src ="media/12.png" width="624"/>
 
-5. In the URL field, enter the MyItems app clone URL: https://github.com/Microsoft/BikeSharing360_MobileApps. Click **Clone** button and wait for cloning to complete.
+5. In the URL field, enter the MyItems app clone URL: https://github.com/Microsoft/VisualStudio2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample.git. Click **Clone** button and wait for cloning to complete.
 
    <img src ="media/13.png" width="624"/>
 
@@ -136,7 +136,7 @@ Bike Riders can download a cross-platform mobile app to:
 
    <img src ="media/16.png" width="624"/>
 
-10. Now that you have the solution open and ready in Visual Studio, you need to setup an Azure instance and point the app at it. Follow the instructions here, and then return when you’re done. https://github.com/Microsoft/BikeSharing360_MobileApps
+10. Now that you have the solution open and ready in Visual Studio, you need to setup an Azure instance and point the app at it. Follow the instructions here, and then return when you’re done. https://github.com/Microsoft/VisualStudio2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample
 
 11. Right-click on the Android project, and select **Set as startup project**. Then start debugging on an Android emulator by clicking the Debug button in the toolbar.
 
