@@ -54,11 +54,11 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 
 </tr>
 <tr>
-<td>Microservices and Docker</td>
+<td>Visual Studio Tools for Docker</td>
 <td><a href="/Microservices and Docker">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h42m22s">Demo Video</a></td>
 <td><a href="https://github.com/Microsoft/BikeSharing360_SingleContainer/" >Single-container Source Code</a>
-o  <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >Multi-container Source Code</a></td>
+  <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >Multi-container Source Code</a></td>
 
 </tr>
 <tr>
@@ -78,7 +78,7 @@ o  <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >Mu
 
 </tr>
 <tr>
-<td>VSTS and DevOps</td>
+<td>Visual Studio Team Services and DevOps</td>
 <td><a href="/VSTS and DevOps">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=1h37m43s">Demo Video</a></td>
 <td><a href="https://github.com/abelsquidhead/VSTSDemoKeynoteDemo1.git">Source Code</a></td>
