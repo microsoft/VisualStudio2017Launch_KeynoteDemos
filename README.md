@@ -15,7 +15,7 @@ You can find the Visual Studio 2017 Launch Keynote demo <a href="https://channel
 
 And you can download the Visual Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>.
 
-## Visual Studio 2017 KeyNote Demo Scripts
+## Visual Studio 2017 Keynote Demo Scripts
 
 This repo has simplified versions of keynote demo scripts and access to multiple repos we used during the keynote. Individual feature demos are targeted towards developers. Each demo explains the feature and the value prop of the feature in detail.
 
