@@ -10,7 +10,7 @@
 We are happy to announce the release of Visual Studio 2017. This release brings a new lightweight and modular installation experience which can be tailored to your needs.
 
 Use Visual Studio 2017 to develop apps for Android, iOS, Windows, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this new release!
-
+u
 You can find the Visual Studio 2017 Launch Keynote demo <a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100">from here</a>.
 
 And you can download the Visual Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>.
@@ -58,7 +58,7 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td><a href="/Microservices and Docker">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h42m22s">Demo Video</a></td>
 <td><a href="https://github.com/Microsoft/BikeSharing360_SingleContainer/" >Single-container Source Code</a>
-  <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >Multi-container BikeSharing360-Multi</a></td>
+o  <br> <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer" >Multi-container Source Code</a></td>
 
 </tr>
 <tr>
@@ -66,7 +66,7 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td><a href="/Xamarin Cycle">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=1h08m15s">Demo Video</a></td>
 <td><a href="https://repos.opensource.microsoft.com/Microsoft/repos/VS2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample" >Xamarin Azure Souce Code</a>
-<br><a href="https://github.com/Microsoft/BikeSharing360_MobileApps">Source Code</a>
+<br><a href="https://github.com/Microsoft/BikeSharing360_MobileApps">BikeSharing360 Source Code</a>
 </td>
 
 </tr>
@@ -74,7 +74,7 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td>Visual Studio Mobile Center</td>
 <td><a href="/Visual Studio Mobile Center">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=1h19m05s">Demo Video</a></td>
-<td><a href="https://github.com/Microsoft/BikeSharing360_MobileApps">Source Code</a></td>
+<td><a href="https://github.com/Microsoft/BikeSharing360_MobileApps">BikeSharing360 Source Code</a></td>
 
 </tr>
 <tr>
