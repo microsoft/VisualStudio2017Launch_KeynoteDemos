@@ -4,9 +4,7 @@ image here
 
 ## Overview
 
-With performance improvement, the other Kasey helped you get to the code fast and the productivity improvements that i am about to show you help you write your code fast. 
 The new productivity improvements that we have added in Visual Studio 2017 allow you to make major code change quickly and with confidence while keeping you in the zone of your development.
-If you don't have the code, you can download it from <a href="" >here</a>.
 
 ## Demo 1: Live Unit Testing
 
