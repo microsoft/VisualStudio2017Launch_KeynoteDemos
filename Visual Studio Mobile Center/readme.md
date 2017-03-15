@@ -1,7 +1,7 @@
 # Visual Studio Mobile Center
 
 <p align="center">
-<img src="media/vsmobilecenter.png" width="624"/>
+<img src="media/MobileCenter.png" width="624"/>
 </p>
 
 ## Overview

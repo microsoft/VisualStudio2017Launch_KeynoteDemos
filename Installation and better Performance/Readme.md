@@ -2,7 +2,7 @@
 # Visual Studio 2017 RTM - Installation and better performance
 
 <p align="center">
-<img src="media/vsperf.png" width="624"/>
+<img src="media/VSInstall.png" width="624"/>
 </p>
 
 # Prerequisites

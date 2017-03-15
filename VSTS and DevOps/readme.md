@@ -1,7 +1,7 @@
 # VSTS and DevOps
 
 <p align="center">
-<img src="media/alm.png"/>
+<img src="media/VSTS.png"/>
 </p>
 
 ## High-level flow

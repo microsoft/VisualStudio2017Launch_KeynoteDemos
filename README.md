@@ -1,7 +1,7 @@
 # Visual Studio 2017-Launch-Keynote-Demos
 
 <p align="center">
-<img src="vs2017.jpeg"/>
+<img src="VS2017Launch.jpg"/>
 </p>
 
 <br>

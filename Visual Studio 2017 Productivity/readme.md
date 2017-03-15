@@ -1,6 +1,8 @@
 # Visual Studio 2017 Productivity Features
 
-image here
+<p align="center">
+<img src="media/LUT.png" width="824"/>
+</p>
 
 ## Overview
 

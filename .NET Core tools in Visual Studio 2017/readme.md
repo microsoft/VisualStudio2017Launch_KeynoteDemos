@@ -1,7 +1,7 @@
 # .NET Core tools in Visual Studio 2017
 
 <p align="center">
-<img src="media/aspnetcore.png"/>
+<img src="media/.NETCORE.png"/>
 </p>
 
 

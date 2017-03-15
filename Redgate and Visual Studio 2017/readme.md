@@ -1,7 +1,7 @@
 # Redgate and Visual Studio 2017
 
 <p align="center">
-<img src="media/redgate.png"/>
+<img src="media/ReadyRoll.jpg"/>
 </p>
 
 
