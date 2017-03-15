@@ -1,4 +1,4 @@
-# Visual Studio 2017-Launch-Keynote-Demos
+# Visual Studio 201 Launch - Keynote Demos
 
 <p align="center">
 <img src="VS2017Launch.jpg"/>
@@ -11,15 +11,16 @@ We are happy to announce the release of Visual Studio 2017. This release brings 
 
 Use Visual Studio 2017 to develop apps for Android, iOS, Windows, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this new release!
 
-You can find the Visual Studio 2017 Launch Keynote demo <a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100">from here</a>
+You can find the Visual Studio 2017 Launch Keynote demo <a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100">from here</a>.
 
-And you can download the Visual Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>
+And you can download the Visual Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>.
 
 ## Visual Studio 2017 KeyNote Demo Scripts
 
-These are individual feature demos targetted towards developers. Each demo explains the feature and the value prop of the feature in detail.
+This repo has simplified versions of keynote demo scripts and access to multiple repos we used during the keynote. Individual feature demos are targeted towards developers. Each demo explains the feature and the value prop of the feature in detail.
 
-**Note** - All of the VSE features and Xamarin demos are based on the **BikeSharing360** application
+**Note** - All of the Visual Studio Enterprise features and Xamarin demos are based on the **BikeSharing360** application available at:
+<a href="http://aka.ms/bikesharing360">from here</a>.
 
 <br>
 
