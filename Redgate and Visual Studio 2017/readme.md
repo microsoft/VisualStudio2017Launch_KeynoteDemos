@@ -165,6 +165,10 @@ click Download SQL Server Management Studio (16.5.3)
 1. Browse to your VSTS instance and select the team project you created earlier
 
    <img src="media/2017-03-16_16-12-06.jpg" width="640" />
+   
+2. Hover over the gears icon and select Agent queues
+
+   <img src="media/2017-03-16_16-12-06.jpg" width="640" />
 
 
 ## VS Configuration
