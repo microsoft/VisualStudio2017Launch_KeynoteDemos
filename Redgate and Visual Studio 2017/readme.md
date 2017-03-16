@@ -156,6 +156,10 @@ click Download SQL Server Management Studio (16.5.3)
 4. Click Install
 
    <img src="media/2017-03-16_15-48-50.jpg" width="346" />
+   
+5. Wait for SSMS installation to finish, then click Close
+
+   <img src="media/2017-03-16_16-00-02.jpg" width="348" />
 
 
 
