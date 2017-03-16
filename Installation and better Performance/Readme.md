@@ -2,7 +2,7 @@
 # Visual Studio 2017 RTM - Installation and better performance
 
 <p align="center">
-<img src="media/VSInstall.png" width="624"/>
+<img src="media/VSInstall.png" width="924"/>
 </p>
 
 # Prerequisites
@@ -36,7 +36,7 @@
 1. Open the Visual Studio Installer. Click *Modify* on the Enterprise Install. Point
 out that the “core” Visual Studio installation is small and you select only the workloads you need.
 
-<img src="media/image1.png"  width="624"/>
+<img src="media/image1.png"  width="1024"/>
 
 > **Talking Point**: <br />   
 As Visual Studio 2017 is now released, many of you will be picking up Visual Studio 2017 for
@@ -52,7 +52,7 @@ the first time. Let's look at how easy it is to get you up and running.<br /><br
     seconds, and proof that the solution loaded by searching it in 14 seconds. File
     opens in 18 seconds.
 
-<img src="media/image2.png"  width="624">
+<img src="media/image2.png"  width="1024">
 
 
 > **Talking Point**: <br />
@@ -67,7 +67,7 @@ We want to empower you to Get in, and Get going.
 
 1.  Open Visual Studio 2017
 
-<img src="media/image3.png"  width="624">
+<img src="media/image3.png"  width="1024">
 
 When you have the extension installed, the GitHub provider should show up
 under <i>Open</i>.
@@ -84,7 +84,7 @@ can find it in the list and start the checkout process with one click.
 1.  On the Start Screen, click on the <i>Visual Studio Team Services</i> item under Open - Checkout from: A
     dialog should popup to search.
 
-<img src="media/image4.png" height="524">
+<img src="media/image4.png" height="624">
 
 > **Talking Point**: <br />
 If I don't have my project already in the Recent List, I need to grab it from my

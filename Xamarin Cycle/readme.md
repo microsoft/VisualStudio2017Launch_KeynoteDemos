@@ -561,7 +561,7 @@ All this done without having to stop the debugging of the application!
 
 <img src ="media/75.png" width="624"/>
 
->**Talking Point**: But now what we’re going to look at is a fully-fleshed out Xamarin application called Bike Sharing. This is a Xamarin Forms app, but instead of being just a File-New app like we just went through, this is a fully baked ready-to-deploy grade app. It’s open source on Github, so you can go grab the code and learn how it works. It combines several Azure backend services, including APS.NET and .NET Core. In the Xamarin portion of the app, over 90% of the app code is shared between platforms: Android, iOS, and Windows.
+>**Talking Point**: But now what we’re going to look at is a fully-fleshed out Xamarin application called Bike Sharing. This is a Xamarin Forms app, but instead of being just a File-New app like we just went through, this is a fully baked ready-to-deploy grade app. It’s open source on Github, so you can go grab the code and learn how it works. It combines several Azure backend services, including ASP.NET and .NET Core. In the Xamarin portion of the app, over 90% of the app code is shared between platforms: Android, iOS, and Windows.
 
 2. Launch the app on Windows and Android emulator, click on **New Ride** in the respective screens.
 

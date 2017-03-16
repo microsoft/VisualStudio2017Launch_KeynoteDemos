@@ -1,7 +1,7 @@
 # Visual Studio 2017 Launch - Keynote Demos
 
 <p align="center">
-<img src="VS2017Launch.jpg"/>
+<img src="VS2017Launch.png"/>
 </p>
 
 <br>
@@ -10,7 +10,7 @@
 We are happy to announce the release of Visual Studio 2017. This release brings a new lightweight and modular installation experience which can be tailored to your needs.
 
 Use Visual Studio 2017 to develop apps for Android, iOS, Windows, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this new release!
-u
+
 You can find the Visual Studio 2017 Launch Keynote demo <a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100">from here</a>.
 
 And you can download the Visual Studio 2017 Enterprise <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15">from here</a>.
