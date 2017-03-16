@@ -19,7 +19,7 @@ And you can download the Visual Studio 2017 Enterprise <a href="https://www.visu
 
 This repo has simplified versions of keynote demo scripts and access to multiple repos we used during the keynote. Individual feature demos are targeted towards developers. Each demo explains the feature and the value prop of the feature in detail.
 
-**Note** - All of the Visual Studio Enterprise features and Xamarin demos are based on the **BikeSharing360** application available at:
+**Note** - All of the Visual Studio Enterprise features and Xamarin demos are based on the **BikeSharing360** demo application available at:
 <a href="http://aka.ms/bikesharing360">from here</a>.
 
 <br>
