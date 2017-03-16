@@ -70,7 +70,7 @@ For this demo, we will need a VSTS project with the correct code base and a buil
    
 3. Click import a repository
 
-   <img src="media/2017-03-16_13-01-47.jpg" width="624" />
+   <img src="media/2017-03-16_13-42-31.jpg" width="624" />
 
 
 
