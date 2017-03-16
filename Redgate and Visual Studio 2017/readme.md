@@ -56,22 +56,6 @@ these deployments and show a preview of what changes will be made.
 
 3.  SQL Prompt makes writing SQL code easier and smarter
 
-## Demo URLs
-
-1.  Redgate Demo Build:
-    https://cadddemos.visualstudio.com/BikeSharing360/\_build/index?context=allDefinitions&path=%5C&definitionId=33&\_a=completed
-
-2.  Redgate Demo Release:
-    https://cadddemos.visualstudio.com/BikeSharing360/\_apps/hub/ms.vss-releaseManagement-web.hub-explorer?definitionId=23&\_a=definitionoverview
-
-## Demo Machines
-
-Please add a list of all machines and equipment. We will provide clean
-and preinstalled machines for you.
-
-- Demo Bits and licenses (Setup)
-
-
 ## VS Configuration
 
 Install Visual Studio 2017 RC by selecting the “Data storage and
@@ -87,7 +71,7 @@ Open Visual Studio and sign in.
 1.  Open the command prompt or PowerShell
 
 2.  git clone
-    <https://cadddemos.visualstudio.com/BikeSharing360/_git/BikeSharingRedgate>
+    <https://github.com/abelsquidhead/VS2017VSTSKeynoteDemo>
 
 3.  git push origin +5a5d6:master (please use the hash in git before you
     made your changes)
