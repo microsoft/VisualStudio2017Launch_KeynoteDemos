@@ -185,6 +185,10 @@ click Download SQL Server Management Studio (16.5.3)
 6. After the zip file downloads, open a powershell window and follow the instructions
 
    <img src="media/2017-03-16_16-26-43.jpg" width="640" />
+   
+7. After configuring VSTS agent, verify the agent shows up in your Default queue and is green
+
+   <img src="media/2017-03-16_16-33-30.jpg" width="640" />
 
 
 ## VS Configuration
