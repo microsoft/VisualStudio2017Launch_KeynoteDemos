@@ -59,7 +59,7 @@ these deployments and show a preview of what changes will be made.
 ## VSTS Configuration
 For this demo, we will need a VSTS project with the correct code base and a build and release pipeline.
 
-### Task1: Create demo project in VSTS
+### Task1: Create demo project in VSTS and import the code
 1. Browse to your VSTS account and click New Project 
 
    <img src="media/2017-03-16_12-41-50.jpg" width="624" />
@@ -67,6 +67,12 @@ For this demo, we will need a VSTS project with the correct code base and a buil
 2. Give your project a name and click Create
 
    <img src="media/2017-03-16_12-56-24.jpg" width="624" />
+   
+3. Click import a repository
+
+   <img src="media/2017-03-16_13-01-47.jpg" width="624" />
+
+
 
 ## VS Configuration
 
