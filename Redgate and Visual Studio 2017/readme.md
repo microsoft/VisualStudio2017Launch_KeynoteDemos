@@ -152,6 +152,10 @@ click Download SQL Server Management Studio (16.5.3)
 3. Click Run
 
    <img src="media/2017-03-16_15-46-03.jpg" width="228" />
+   
+4. Click Install
+
+   <img src="media/2017-03-16_15-48-50.jpg" width="346" />
 
 
 
