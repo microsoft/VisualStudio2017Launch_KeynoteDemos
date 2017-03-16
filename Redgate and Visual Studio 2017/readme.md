@@ -150,6 +150,10 @@ you need to install SSMS and finally, configure the VSTS agent.
 
    <img src="media/2017-03-16_15-34-35.jpg" width="240" />
    
+4. Enter your microsoft ID and click Continue
+
+   <img src="media/2017-03-16_15-36-39.jpg" width="240" />
+   
 
    
 
