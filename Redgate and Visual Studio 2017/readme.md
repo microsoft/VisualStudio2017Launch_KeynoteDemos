@@ -113,6 +113,11 @@ create and configure your private agent in an azure VM.
 6. Give your VM a name, a user name, password, select your subscritpion, create a new resource group and select a location and click the OK button
 
    <img src="media/2017-03-16_14-17-07.jpg" width="624" />
+   
+7. Select DS2 and click Select button
+
+   <img src="media/2017-03-16_14-20-23.jpg" width="624" />
+
 
 
 
