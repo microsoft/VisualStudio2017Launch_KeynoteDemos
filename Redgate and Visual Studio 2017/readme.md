@@ -89,6 +89,11 @@ For this demo, we will need a VSTS project with the correct code base and a buil
 
    <img src="media/2017-03-16_13-58-28.jpg" width="624" /> 
 
+2. Click Add
+
+   <img src="media/2017-03-16_14-02-50.jpg" width="624" /> 
+
+
 
 ## VS Configuration
 
