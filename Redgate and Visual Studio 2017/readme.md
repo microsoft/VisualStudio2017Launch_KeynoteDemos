@@ -56,6 +56,14 @@ these deployments and show a preview of what changes will be made.
 
 3.  SQL Prompt makes writing SQL code easier and smarter
 
+## VSTS Configuration
+For this demo, we will need a VSTS project with the correct code base and a build and release pipeline.
+
+### Task1: Create demo project in VSTS
+1. Browse to your VSTS account and click New Project 
+
+   <img src="media/2017-03-16_12-41-50.jpg" width="541" height="285" />
+
 ## VS Configuration
 
 Install Visual Studio 2017 RC by selecting the “Data storage and
