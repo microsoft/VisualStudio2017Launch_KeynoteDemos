@@ -72,9 +72,11 @@ Bike Riders can download a cross-platform mobile app to:
    
    b. Locate the path to which it was installed on your filesystem. This is usually in either `C:\Program Files(x86)\Java\jdk1.8.0_121` for 32-bit versions of the JDK, or `C:\Program Files\Java\jdk1.8.0_121` for 64-bit. **Note that your folder will be slighly different depending on your version number.**
    
-   c. In Visual Studio, select the **Tools -> Options** menu.
+   c. In Visual Studio, select the **Tools -> Options** menu. 
+<img src ="media/VS_Tools-Options.png" width="300"/>
    
    d. In the Options window, scroll down to the **Xamarin** section and locate the **Java Development Kit Location**. Click the "Change" link. Enter the path you detemrined in step **b**, like `C:\Program Files\Java\jdk1.8.0_121`.
+<img src ="media/VS_Options.png" width="300"/>
    
    e. Click "OK" and restart Visual Studio.
 
