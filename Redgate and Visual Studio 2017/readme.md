@@ -88,7 +88,7 @@ redgate database project.
    
 ### Task 2: Create private build/release agent for VSTS
 
-This demo works best if you create your own private VSTS build/release agent.  The following steps describe how to 
+This demo works best if you create your own private VSTS build and release agent.  The following steps describe how to 
 create and configure your private agent in an azure VM.
 
 1. Browse to your azure portal and select Virtual machines
@@ -129,7 +129,7 @@ create and configure your private agent in an azure VM.
    
 10. Wait for the deployment to finish
 
-   <img src="media/2017-03-16_15-06-28.jpg" width="624" />
+    <img src="media/2017-03-16_15-06-28.jpg" width="624" />
    
 
    
