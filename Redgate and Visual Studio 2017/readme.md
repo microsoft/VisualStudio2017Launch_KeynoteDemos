@@ -172,7 +172,19 @@ click Download SQL Server Management Studio (16.5.3)
    
 3. Click Download agent
 
-   <img src="media/2017-03-16_16-21-08.jpg" width="640" />
+
+   
+4. Click Download
+
+   <img src="media/2017-03-16_16-22-46.jpg" width="640" />
+   
+5. Click Save
+
+   <img src="media/2017-03-16_16-23-39.jpg" width="640" />
+   
+6. After the zip file downloads, open a powershell window and follow the instructions
+
+   <img src="media/2017-03-16_16-26-43.jpg" width="640" />
 
 
 ## VS Configuration
