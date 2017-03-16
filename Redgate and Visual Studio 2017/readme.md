@@ -125,6 +125,10 @@ create and configure your private agent in an azure VM.
 9. Click the OK button
 
    <img src="media/2017-03-16_14-24-34.jpg" width="624" />
+   
+10. Wait for the deployment to finish
+
+   <img src="media/2017-03-16_15-06-28.jpg" width="624" />
 
 
 
