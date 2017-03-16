@@ -117,6 +117,10 @@ create and configure your private agent in an azure VM.
 7. Select DS2 and click Select button
 
    <img src="media/2017-03-16_14-20-23.jpg" width="624" />
+   
+8. Click the OK button
+
+   <img src="media/2017-03-16_14-22-08.jpg" width="624" />
 
 
 
