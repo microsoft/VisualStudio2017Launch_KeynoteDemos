@@ -84,7 +84,7 @@ For this demo, we will need a VSTS project with the correct code base and a buil
 
    <img src="media/2017-03-16_13-50-47.jpg" width="624" /> 
    
-### Task 2: Create private build/release agent
+### Task 2: Create private build/release agent for VSTS
 1. Browse to your azure portal and select Virtual machines
 
    <img src="media/2017-03-16_13-58-28.jpg" width="624" /> 
