@@ -135,9 +135,14 @@ create and configure your private agent in an azure VM.
 
     <img src="media/2017-03-16_15-13-22.jpg" width="624" />
 	
-12. RDP into your agent machine using the username and password you picked when creating the VM
+### Task 3: Configure the private VSTS build and release agent machine
+To configure the private VSTS build and release agent, you will need to verify Visual Studio 2017 is correct.  Then you 
+you need to install SSMS and finally, configure the VSTS agent.
 
-    <img src="media/2017-03-16_15-15-52.jpg" width="228" />
+#### Verify Visual Studio 2017
+1. RDP into your agent machine using the username and password you picked when creating the VM
+
+   <img src="media/2017-03-16_15-15-52.jpg" width="228" />
    
 
    
