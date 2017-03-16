@@ -188,7 +188,7 @@ click Download SQL Server Management Studio (16.5.3)
 
    <img src="media/2017-03-16_16-33-30.jpg" width="640" />
    
-### Task 4: Create build
+### Task 4: Create build definition
 1. Browse to your VSTS demo project and click on the build tab
 
    <img src="media/2017-03-16_16-40-07.jpg" width="640" />
