@@ -57,7 +57,8 @@ these deployments and show a preview of what changes will be made.
 3.  SQL Prompt makes writing SQL code easier and smarter
 
 ## VSTS Configuration
-For this demo, we will need a VSTS project with the correct code base and a build and release pipeline.
+For this demo, we will need a VSTS project with the correct code base and a build and release pipeline which compiles and deploys the 
+redgate database project.
 
 ### Task 1: Create demo project in VSTS and import the code
 
@@ -129,10 +130,9 @@ create and configure your private agent in an azure VM.
 10. Wait for the deployment to finish
 
    <img src="media/2017-03-16_15-06-28.jpg" width="624" />
+   
 
-
-
-
+   
 
 ## VS Configuration
 
