@@ -59,7 +59,7 @@ these deployments and show a preview of what changes will be made.
 ## VSTS Configuration
 For this demo, we will need a VSTS project with the correct code base and a build and release pipeline.
 
-### Task1: Create demo project in VSTS and import the code
+### Task 1: Create demo project in VSTS and import the code
 1. Browse to your VSTS account and click New Project 
 
    <img src="media/2017-03-16_13-36-00.jpg" width="624" />
@@ -83,6 +83,12 @@ For this demo, we will need a VSTS project with the correct code base and a buil
 6. Wait for import to complete
 
    <img src="media/2017-03-16_13-50-47.jpg" width="624" /> 
+   
+### Task 2: Create private build/release agent
+1. Browse to your azure portal and select Virtual machines
+
+   <img src="media/2017-03-16_13-58-28.jpg" width="624" /> 
+
 
 ## VS Configuration
 
