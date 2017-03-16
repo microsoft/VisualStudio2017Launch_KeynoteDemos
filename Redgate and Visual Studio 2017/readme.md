@@ -103,7 +103,7 @@ create and configure your private agent in an azure VM.
 
    <img src="media/2017-03-16_14-08-31.jpg" width="624" /> 
 
-4. Select Visual Studio Enterprise 2-17 on Windows Server 2016 (x64)
+4. Select Visual Studio Enterprise 2017 on Windows Server 2016 (x64)
 
    <img src="media/2017-03-16_14-11-06.jpg" width="624" />
    
@@ -143,6 +143,12 @@ you need to install SSMS and finally, configure the VSTS agent.
 1. RDP into your agent machine using the username and password you picked when creating the VM
 
    <img src="media/2017-03-16_15-15-52.jpg" width="228" />
+   
+2. Launch VS 2017
+
+3. Click Sign in button
+
+   <img src="media/2017-03-16_15-34-35.jpg" width="240" />
    
 
    
