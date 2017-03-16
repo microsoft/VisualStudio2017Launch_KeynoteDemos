@@ -121,6 +121,10 @@ create and configure your private agent in an azure VM.
 8. Click the OK button
 
    <img src="media/2017-03-16_14-22-08.jpg" width="624" />
+   
+9. Click the OK button
+
+   <img src="media/2017-03-16_14-24-34.jpg" width="624" />
 
 
 
