@@ -161,7 +161,7 @@ click Download SQL Server Management Studio (16.5.3)
 
    <img src="media/2017-03-16_16-00-02.jpg" width="348" />
 
-#### Installing and VSTS Agent
+#### Installing and configuring VSTS Agent
 1. Browse to your VSTS instance and select the team project you created earlier
 
    <img src="media/2017-03-16_16-12-06.jpg" width="640" />
@@ -171,8 +171,6 @@ click Download SQL Server Management Studio (16.5.3)
    <img src="media/2017-03-16_16-13-30.jpg" width="640" />
    
 3. Click Download agent
-
-
    
 4. Click Download
 
@@ -189,6 +187,20 @@ click Download SQL Server Management Studio (16.5.3)
 7. After configuring VSTS agent, verify the agent shows up in your Default queue and is green
 
    <img src="media/2017-03-16_16-33-30.jpg" width="640" />
+   
+### Task 4: Create build
+1. Browse to your VSTS demo project and click on the build tab
+
+   <img src="media/2017-03-16_16-40-07.jpg" width="640" />
+
+2. Click on New definition
+
+   <img src="media/2017-03-16_16-38-55.jpg" width="640" />
+   
+3. Click on empty processing
+
+   <img src="media/2017-03-16_16-43-34.jpg" width="640" />
+
 
 
 ## VS Configuration
