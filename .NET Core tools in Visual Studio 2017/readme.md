@@ -7,14 +7,12 @@
 
 **Setup:**
 
-Visual Studio 2017 (RC4 or later)
+- Visual Studio 2017 
 
-Clone repo: code coming soon. You can start with any project.json-based
-ASP.NET Core web application. If you don’t have one, just mention the
-migration and create a new ASP.NET Core App Project by clicking New
-option in the File Menu.*
+- Make sure the error list is unpinned / hidden.
 
-Make sure the error list is unpinned / hidden.
+- You can start with any project.json-based ASP.NET Core web application. If you don’t have one, just mention the migration and create a new ASP.NET Core App Project by clicking New
+option in the File Menu.
 
 **Demo steps**
 
