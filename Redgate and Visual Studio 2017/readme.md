@@ -110,6 +110,10 @@ create and configure your private agent in an azure VM.
 
    <img src="media/2017-03-16_14-13-25.jpg" width="624" />
 
+6. Give your VM a name, a user name, password, select your subscritpion, create a new resource group and select a location and click the OK button
+
+   <img src="media/2017-03-16_14-17-07.jpg" width="624" />
+
 
 
 
