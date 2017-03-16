@@ -168,7 +168,7 @@ click Download SQL Server Management Studio (16.5.3)
    
 2. Hover over the gears icon and select Agent queues
 
-   <img src="media/2017-03-16_16-12-06.jpg" width="640" />
+   <img src="media/2017-03-16_16-13-30.jpg" width="640" />
 
 
 ## VS Configuration
