@@ -98,6 +98,10 @@ create and configure your private agent in an azure VM.
 
    <img src="media/2017-03-16_14-02-50.jpg" width="624" /> 
 
+3. Enter Visual Studio in the search text box and select Visual Studio Enterprise 2017 on Windows Server 2016 (x64)
+
+   <img src="media/2017-03-16_14-08-31.jpg" width="624" /> 
+
 
 
 ## VS Configuration
