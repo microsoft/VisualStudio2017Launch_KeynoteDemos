@@ -130,6 +130,10 @@ create and configure your private agent in an azure VM.
 10. Wait for the deployment to finish
 
     <img src="media/2017-03-16_15-06-28.jpg" width="624" />
+	
+11. Login to the VM by clicking on the Connect button
+
+    <img src="media/2017-03-16_15-13-22.jpg" width="624" />
    
 
    
