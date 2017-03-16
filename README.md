@@ -37,20 +37,20 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td>Visual Studio 2017 Install and Performance</td>
 <td><a href="/Installation and better Performance">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h15m37s">Demo Video</a></td>
-<td><a href="https://github.com/Microsoft/BikeSharing360_Productivity">Source Code</a></td>
+<td><a href="https://github.com/Microsoft/BikeSharing360_Productivity/tree/master/Lightweight">Source Code</a></td>
 </tr>
 <tr>
 <td>Visual Studio 2017 Productivity</td>
 <td><a href="/Visual Studio 2017 Productivity">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h20m32s">Demo Video</a></td>
-<td><a href="https://github.com/kuhlenh/Productivity">Source Code</a></td>
+<td><a href="https://github.com/Microsoft/BikeSharing360_Productivity/tree/master/code">Source Code</a></td>
 
 </tr>
 <tr>
 <td>.NET Core tools in Visual Studio 2017</td>
 <td><a href="/.NET Core tools in Visual Studio 2017">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=0h34m34s">Demo Video</a></td>
-<td><a href="https://github.com/Microsoft/BikeSharing360_Websites">Source Code</a></td>
+<td><a href="https://github.com/Microsoft/BikeSharing360_Websites/tree/master/VS2017-NetCoreTools-Demo">Source Code</a></td>
 
 </tr>
 <tr>
