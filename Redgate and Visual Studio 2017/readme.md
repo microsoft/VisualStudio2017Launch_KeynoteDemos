@@ -62,7 +62,7 @@ For this demo, we will need a VSTS project with the correct code base and a buil
 ### Task1: Create demo project in VSTS
 1. Browse to your VSTS account and click New Project 
 
-   <img src="media/2017-03-16_12-41-50.jpg" width="541" height="285" />
+   <img src="media/2017-03-16_12-41-50.jpg" width="624" />
 
 ## VS Configuration
 
