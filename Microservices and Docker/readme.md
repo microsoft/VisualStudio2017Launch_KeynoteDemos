@@ -330,6 +330,8 @@ way to provide scalable single container services.
 
   <img src="media/image17.png"  />
 
+- Right-click on the **docker-compose** project and select **"Set as StartUp Project"**
+
 - Start Docker Solution Debugging to warm up the instances
 
   <img src="media/image18.png"  />
