@@ -71,6 +71,14 @@ For this demo, we will need a VSTS project with the correct code base and a buil
 3. Click import a repository
 
    <img src="media/2017-03-16_13-42-31.jpg" width="624" />
+   
+4. Click Import button
+
+   <img src="media/2017-03-16_13-47-15.jpg" width="624" /> 
+
+5. Enter https://github.com/abelsquidhead/VS2017VSTSKeynoteDemo in the Clone URL text box and click Import
+
+   <img src="media/2017-03-16_13-49-07.jpg" width="624" /> 
 
 
 
