@@ -60,8 +60,6 @@ these deployments and show a preview of what changes will be made.
 For this demo, we will need a VSTS project with the correct code base and a build and release pipeline.
 
 ### Task 1: Create demo project in VSTS and import the code
-This demo works best if you create your own private VSTS build/release agent.  The following steps describe how to 
-create and configure your private agent in an azure VM.
 
 1. Browse to your VSTS account and click New Project 
 
@@ -88,6 +86,10 @@ create and configure your private agent in an azure VM.
    <img src="media/2017-03-16_13-50-47.jpg" width="624" /> 
    
 ### Task 2: Create private build/release agent for VSTS
+
+This demo works best if you create your own private VSTS build/release agent.  The following steps describe how to 
+create and configure your private agent in an azure VM.
+
 1. Browse to your azure portal and select Virtual machines
 
    <img src="media/2017-03-16_13-58-28.jpg" width="624" /> 
