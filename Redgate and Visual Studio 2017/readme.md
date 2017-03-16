@@ -139,7 +139,7 @@ create and configure your private agent in an azure VM.
 To configure the private VSTS build and release agent, you will need to install SSMS and download and configure the 
 VSTS agent.
 
-#### Verify Visual Studio 2017
+#### Installing Sql Server Management Studio
 1. RDP into your agent machine using the username and password you picked when creating the VM
 
    <img src="media/2017-03-16_15-15-52.jpg" width="228" />
@@ -161,6 +161,10 @@ click Download SQL Server Management Studio (16.5.3)
 
    <img src="media/2017-03-16_16-00-02.jpg" width="348" />
 
+#### Installing and VSTS Agent
+1. Browse to your VSTS instance and select the team project you created earlier
+
+   <img src="media/2017-03-16_16-08-33.jpg" width="640" />
 
 
 ## VS Configuration
