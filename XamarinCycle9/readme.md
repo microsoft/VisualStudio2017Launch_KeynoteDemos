@@ -65,8 +65,20 @@ Bike Riders can download a cross-platform mobile app to:
    - <a href="https://developer.xamarin.com/guides/cross-platform/inspector/install/#Download_and_Installation" >Xamarin Inspector</a>
 
    - <a href="https://www.xamarin.com/test-cloud/recorder" >Xamarin Test Recorder</a>
+   
+4. In some cases, the Java JDK may need to be updated. It's best to make sure that it is, and just manually do this yourself.
 
-4. To show the iOS simulator for Visual Studio, you will need to have a Mac on your local area network to connect to. This can be a MacBook Pro or a Mac Mini. It can even be the MacBook Pro in which you are running a Windows virtual machine to do the Visual Studio portion of your demo.
+   a. Download and install the most recent version of the Java JDK. Take care to download the **64-bit version** if you're using a 64-bit machine: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+   
+   b. Locate the path to which it was installed on your filesystem. This is usually in either `C:\Program Files(x86)\Java\jdk1.8.0_121` for 32-bit versions of the JDK, or `C:\Program Files\Java\jdk1.8.0_121` for 64-bit. **Note that your folder will be slighly different depending on your version number.**
+   
+   c. In Visual Studio, select the **Tools -> Options** menu.
+   
+   d. In the Options window, scroll down to the **Xamarin** section and locate the **Java Development Kit Location**. Click the "Change" link. Enter the path you detemrined in step **b**, like `C:\Program Files\Java\jdk1.8.0_121`.
+   
+   e. Click "OK" and restart Visual Studio.
+
+5. To show the iOS simulator for Visual Studio, you will need to have a Mac on your local area network to connect to. This can be a MacBook Pro or a Mac Mini. It can even be the MacBook Pro in which you are running a Windows virtual machine to do the Visual Studio portion of your demo.
 
    See document for guidance on iOS simulator / Mac Agent setup.
 
