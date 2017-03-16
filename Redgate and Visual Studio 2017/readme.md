@@ -134,6 +134,10 @@ create and configure your private agent in an azure VM.
 11. Login to the VM by clicking on the Connect button
 
     <img src="media/2017-03-16_15-13-22.jpg" width="624" />
+	
+12. RDP into your agent machine using the username and password you picked when creating the VM
+
+    <img src="media/2017-03-16_15-15-52.jpg" width="228" />
    
 
    
