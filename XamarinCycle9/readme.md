@@ -181,7 +181,7 @@ Bike Riders can download a cross-platform mobile app to:
    <img src ="media/20.png" width="624"/>
 
 5. In the URL field, enter the Bike Riding app clone URL:
-https://cadddemos.visualstudio.com/_git/BikeSharing360
+https://github.com/Microsoft/BikeSharing360_MobileApps
 
    Click **Clone** button and wait for cloning to complete.
 
