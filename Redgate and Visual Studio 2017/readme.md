@@ -289,14 +289,136 @@ for Arguments
    
 10. Click on Build solution task
 
-   <img src="media/2017-03-17_10-38-42.jpg" width="640" />
+    <img src="media/2017-03-17_10-38-42.jpg" width="640" />
 
 11. In MSBuild Arguments type in:
 
     /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\" /p:TargetServer="$(DatabaseServer)" /p:TargetDatabase="$(DatabaseName)" /p:TargetUserName="$(DatabaseUserName)" /p:TargetPassword="$(DatabasePassword)" /p:ShadowServer="(localdb)\$(ShadowInstanceName)" /p:GenerateSqlPackage=True /p:SkipDriftAnalysis=True
 
     <img src="media/2017-03-17_10-40-54.jpg" width="640" />
-   
+	
+12. Click on the Test Assemblies task
+
+    <img src="media/2017-03-17_10-48-04.jpg" width="640" />
+	
+13. For Test Filter criteria type in TestCategory=Unit Test 
+
+    <img src="media/2017-03-17_10-50-40.jpg" width="640" />
+	
+15. Click on Add Task
+
+    <img src="media/2017-03-17_10-51-46.jpg" width="640" />
+	
+16. In the Search field, type in Archive
+
+    <img src="media/2017-03-17_10-54-11.jpg" width="640" />
+	
+17. Drag the Archive Files task under the Test Assemblies task
+
+    <img src="media/2017-03-17_10-54-11x.jpg" width="640" />
+	
+18. Click on the Archive files task
+
+    <img src="media/2017-03-17_10-56-00.jpg" width="640" />
+	
+19. Under Root folder (or file to archive) type in src/BikeSharing.Services.Rides
+
+    <img src="media/2017-03-17_10-57-45.jpg" width="640" />
+	
+20. Right click Publish symbols path and select Remove selected task(s)
+
+    <img src="media/2017-03-17_10-59-00.jpg" width="640" />
+	
+21. Right click the Copy Files to task and select Remove selected task(s)
+
+    <img src="media/2017-03-17_11-02-18.jpg" width="640" />
+	
+22. Click Add Task
+
+    <img src="media/2017-03-17_11-03-34.jpg" width="640" />
+	
+23. Type copy in the search field
+
+    <img src="media/2017-03-17_11-05-08.jpg" width="640" />
+	
+24. Drag Copy and Publish Build Artifacts task under the Publish Artifact task
+
+    <img src="media/2017-03-17_11-05-08x.jpg" width="640" />
+	
+25. Click on Copy Publish Artifact task
+
+    <img src="media/2017-03-17_11-07-53.jpg" width="640" />
+	
+26. For Display name type Copy Publish Artifact: drop. For Contents type BikeSharing.Services.RidesName/bin/$(BuildConfiguration). 
+For Artifact Type select Server.
+
+    <img src="media/2017-03-17_11-09-08.jpg" width="640" />
+	
+27. Click Add Task
+
+    <img src="media/2017-03-17_11-10-38.jpg" width="640" />
+	
+28. In the search field, type in copy
+
+    <img src="media/2017-03-17_11-11-53.jpg" width="640" />
+	
+29. Drag an drop the Copy and Publish Build Artifacts task to the end
+
+    <img src="media/2017-03-17_11-11-53x.jpg" width="640" />
+	
+28. Click on the Copy Publish Artifact task
+
+    <img src="media/2017-03-17_11-14-17.jpg" width="640" />
+	
+29. For Display name type in Copy Publish Artifact: UITests. For Contents type in BikeSharing360.Tests/bin/$(BuildConfiguration). 
+For Artifact Name type in drop. For Artifact Type select Server
+
+    <img src="media/2017-03-17_11-16-13.jpg" width="640" />
+	
+30. Click on Variables tab
+
+    <img src="media/2017-03-17_11-17-18.jpg" width="640" />
+	
+31. Add the follwoing variables. DatabaseServer, DatabaseName, DatabaseUserName, DatabasePassword, ShadowInstanceName
+
+    <img src="media/2017-03-17_11-22-03.jpg" width="640" />
+	
+	To get the database server, from your azure portal, browse to the dev database.
+	
+	<img src="media/2017-03-17_11-24-29.jpg" width="640" />
+	
+	The DatabaseUserName and DatabasePassword are whatever you set when you created these databases and the ShadowInstanceName is Shadow
+	
+32. Click on the Triggers tab
+
+	<img src="media/2017-03-17_11-26-17.jpg" width="640" />
+	
+33. Enable Continuous Integration
+
+	<img src="media/2017-03-17_11-27-16.jpg" width="640" />
+	
+34. Click on the Options tab
+
+	<img src="media/2017-03-17_11-29-33.jpg" width="640" />
+	
+35. Select Default for Default agent queue
+
+	<img src="media/2017-03-17_11-30-24.jpg" width="640" />
+	
+36. Click on Save & queue and click on Save & queue
+
+	<img src="media/2017-03-17_11-31-26.jpg" width="640" />
+	
+	
+37. Click on Queue
+
+	<img src="media/2017-03-17_11-32-24.jpg" width="640" />
+	
+38. Verify build completes successfully
+
+	<img src="media/2017-03-17_11-33-23.jpg" width="640" />
+
+
 ### Task 6: Create release pipeline
 
 ## VS Configuration
