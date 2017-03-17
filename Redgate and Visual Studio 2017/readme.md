@@ -286,9 +286,17 @@ the resource group you created for your build and release VM
 for Arguments
 
    <img src="media/2017-03-17_10-34-02.jpg" width="640" />
+   
+10. Click on Build solution task
 
+   <img src="media/2017-03-17_10-38-42.jpg" width="640" />
 
+11. In MSBuild Arguments type in:
 
+    /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\" /p:TargetServer="$(DatabaseServer)" /p:TargetDatabase="$(DatabaseName)" /p:TargetUserName="$(DatabaseUserName)" /p:TargetPassword="$(DatabasePassword)" /p:ShadowServer="(localdb)\$(ShadowInstanceName)" /p:GenerateSqlPackage=True /p:SkipDriftAnalysis=True
+
+    <img src="media/2017-03-17_10-40-54.jpg" width="640" />
+   
 ### Task 6: Create release pipeline
 
 ## VS Configuration
