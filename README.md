@@ -65,8 +65,7 @@ This repo has simplified versions of keynote demo scripts and access to multiple
 <td>Visual Studio and Xamarin</td>
 <td><a href="/XamarinCycle9">Demo Script</a></td>
 <td><a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/100#time=1h08m15s">Demo Video</a></td>
-<td><a href="https://repos.opensource.microsoft.com/Microsoft/repos/VS2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample" >Xamarin Azure Source Code</a>
-<br><a href="https://github.com/Microsoft/BikeSharing360_MobileApps">BikeSharing360 Source Code</a>
+<td><a href="https://github.com/Microsoft/BikeSharing360_MobileApps">BikeSharing360 Source Code</a>
 </td>
 
 </tr>
