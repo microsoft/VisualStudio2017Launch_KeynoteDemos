@@ -56,9 +56,10 @@ these deployments and show a preview of what changes will be made.
 
 3.  SQL Prompt makes writing SQL code easier and smarter
 
-## VSTS Configuration
-For this demo, we will need a VSTS project with the correct code base and a build and release pipeline which compiles and deploys the 
-redgate database project.
+## VSTS and Azure Configuration
+For this demo, you will need a VSTS project with the correct code base and a build and release pipeline which compiles and deploys the 
+redgate readyroll database project.  You will also need a private VSTS build and release agent hosted in Azure, as well as a database 
+server and two Azure databases for the Dev and Prod deployment environments.
 
 ### Task 1: Create demo project in VSTS and import the code
 
@@ -86,7 +87,7 @@ redgate database project.
 
    <img src="media/2017-03-16_13-50-47.jpg" width="624" /> 
    
-### Task 2: Create private build/release agent for VSTS
+### Task 2: Create private build and release agent for VSTS in Azure
 
 This demo works best if you create your own private VSTS build and release agent.  The following steps describe how to 
 create and configure your private agent in an azure VM.
@@ -188,7 +189,11 @@ click Download SQL Server Management Studio (16.5.3)
 
    <img src="media/2017-03-16_16-33-30.jpg" width="640" />
    
-### Task 4: Create build definition
+### Task 4: Creating your Azure databases for dev and prod
+
+
+   
+### Task 5: Create build definition
 1. Browse to your VSTS demo project and click on the build tab
 
    <img src="media/2017-03-16_16-40-07.jpg" width="640" />
@@ -201,7 +206,7 @@ click Download SQL Server Management Studio (16.5.3)
 
    <img src="media/2017-03-16_16-43-34.jpg" width="640" />
 
-
+### Task 6: Create release pipeline
 
 ## VS Configuration
 
