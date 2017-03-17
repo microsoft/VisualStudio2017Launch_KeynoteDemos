@@ -604,14 +604,35 @@ This completes building out the release pipeline. DO NOT KICK OFF A RELEASE AT T
 to use Readyroll migrations.  We will do this in the next section.
 
 
-## VS Configuration
+## Demo machine configuration
 
-Install Visual Studio 2017 RC by selecting the “Data storage and
-processing workload” and making sure that all three Redgate tools
-(Redgate ReadyRoll, Redgate SQL Prompt, and Redgate SQL Search) are
-checked.
+Make sure your demo machine has git installed as well as Visual Studio 2017 with the Data storage and processing workload”
+installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgate SQL Prompt and Redgate SQL Search).
 
-Open Visual Studio and sign in.
+### Clone Repo
+1. Browse to your VSTS project and click on the Code tab
+
+   <img src="media/2017-03-17_14-58-11.jpg" width="640" />	
+	
+2. Click on Clone
+
+   <img src="media/2017-03-17_14-59-11.jpg" width="640" />	
+	
+3. Click on Clone in Visual Studio and then select Visual Studio
+
+   <img src="media/2017-03-17_15-02-05.jpg" width="640" />	
+   
+4. Click Allow
+
+   <img src="media/2017-03-17_15-03-28.jpg" width="640" />
+   
+5. Sign into your account
+
+   <img src="media/2017-03-17_15-04-52.jpg" width="640" />
+
+6. Choose where you want to clone the repo and click Clone
+
+   <img src="media/2017-03-17_15-09-11.jpg" width="640" />
 
 
 ### Task 1: Reset demo repository
