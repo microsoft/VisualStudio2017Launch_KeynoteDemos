@@ -206,8 +206,25 @@ the resource group you created for your build and release VM
 
    <img src="media/2017-03-17_9-50-43.jpg" width="640" />
    
-4. 
+4. Click Configure required settings under Server
 
+   <img src="media/2017-03-17_9-53-59.jpg" width="640" />
+   
+5. Click Create a new server
+
+   <img src="media/2017-03-17_9-55-03.jpg" width="640" />
+   
+6. Enter bikesharing-services-dbserver for Server name, enter a Server admin login and password, select a Location and click Select
+
+   <img src="media/2017-03-17_9-57-40.jpg" width="640" />
+
+7. Click Create
+
+   <img src="media/2017-03-17_9-58-37.jpg" width="640" />
+   
+8. Wait for DB to be created
+
+   <img src="media/2017-03-17_10-00-10.jpg" width="640" />
    
 ### Task 5: Create build definition
 1. Browse to your VSTS demo project and click on the build tab
