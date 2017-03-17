@@ -243,9 +243,10 @@ the resource group you created for your build and release VM
 
     <img src="media/2017-03-17_10-07-15.jpg" width="640" />
 
-13. Wait for DB to be created
+13. Wait for prod DB to be created
 
     <img src="media/2017-03-17_10-09-19.jpg" width="640" />
+	
 
 
 ### Task 5: Create build definition
@@ -257,9 +258,36 @@ the resource group you created for your build and release VM
 
    <img src="media/2017-03-16_16-38-55.jpg" width="640" />
    
-3. Click on empty processing
+3. Click on Visual Studio
 
-   <img src="media/2017-03-16_16-43-34.jpg" width="640" />
+   <img src="media/2017-03-17_10-25-25.jpg" width="640" />
+   
+4. Click on Apply
+
+   <img src="media/2017-03-17_10-26-12.jpg" width="640" />
+   
+5. Click on Add Task
+
+   <img src="media/2017-03-17_10-28-46.jpg" width="640" />
+   
+6. In the search field, type in command
+
+   <img src="media/2017-03-17_10-29-54.jpg" width="640" />
+   
+7. Drag the command task under the NuGet restore task
+
+   <img src="media/2017-03-17_10-29-54x.jpg" width="640" />
+   
+8. Click on the Run task
+
+   <img src="media/2017-03-17_10-32-28.jpg" width="640" />
+   
+9. Type Setup Shadow DB for Display name. Type C:\Program Files\Microsoft SQL Server\130\Tools\Binn\SqlLocalDB.exe for Tool.  Type create $(ShadowInstanceName) -s
+for Arguments
+
+   <img src="media/2017-03-17_10-34-02.jpg" width="640" />
+
+
 
 ### Task 6: Create release pipeline
 
