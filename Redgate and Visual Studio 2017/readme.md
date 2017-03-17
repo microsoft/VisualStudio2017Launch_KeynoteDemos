@@ -190,7 +190,12 @@ click Download SQL Server Management Studio (16.5.3)
    <img src="media/2017-03-16_16-33-30.jpg" width="640" />
    
 ### Task 4: Creating your Azure databases for dev and prod
+The Redgate demo pushes database changes to two database, both hosted in Azure.  One will be used for the Dev environment, one will
+be used for the Prod environment.
 
+1. Browse to the Azure portal and click SQL databases
+
+   <img src="media/2017-03-17_8-30-11.jpg" width="640" />
 
    
 ### Task 5: Create build definition
