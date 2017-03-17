@@ -648,17 +648,17 @@ installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgat
 
 3. Click View then select SQL Server Object Explorer
 
-   <img src="media/2017-03-17_15-20-08.jpg" width="554" height="640" />
+   <img src="media/2017-03-17_15-20-08.jpg" width="640" />
 	
 4. open up (localdb)\ProjectsV13 and see if there is a database named BikeSharing.Services.RidesName.
-   <img src="media/2017-03-17_15-27-43.jpg" width="554" height="640" />  
+   <img src="media/2017-03-17_15-27-43.jpg" width="640" />  
 	
-   If there isn't, create one by right clicking the Databases folder and selecitng Add New Database
-   
+   If there isn't, create one by right clicking the Databases folder and select Add New Database
+   <img src="media/2017-03-17_15-28-56.jpg" width="640" />
 
    
    For Database Name enter BikeSharing.SErvices.RidesName and click OK
-   <img src="media/2017-03-17_15-30-01.jpg" width="554" height="640" />
+   <img src="media/2017-03-17_15-30-01.jpg" width="640" />
 
 3.  In the ReadyRoll window at the bottom click the button labeled **Set the target database connection string for this project**
     
