@@ -665,7 +665,18 @@ installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgat
 
 6. Open the BikeSharing.Services.RidesName database up and make sure the baseline database deployed to your local database
 
-   <img src="media/2017-03-17_15-40-15.jpg " width="640" />
+   <img src="media/2017-03-17_15-40-15.jpg" width="640" />
+   
+7. Click on Add SQL Server
+
+   <img src="media/2017-03-17_15-45-28.jpg" width="640" />
+   
+8. Enter the server name (you can get this from your azure portal). Select SQl Server Authentication for Authentication. Enter the user name
+and password you create when you created the database server in Azure, click Remeber Password and select master for the Database Name
+and click Connect
+
+   <img src="media/2017-03-17_15-46-58.jpg" width="640" />
+
  
    
   
