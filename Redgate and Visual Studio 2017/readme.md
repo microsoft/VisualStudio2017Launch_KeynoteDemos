@@ -90,7 +90,8 @@ server and two Azure databases for the Dev and Prod deployment environments.
 ### Task 2: Create private build and release agent for VSTS in Azure
 
 This demo works best if you create your own private VSTS build and release agent.  The following steps describe how to 
-create and configure your private agent in an azure VM.
+create and configure your private agent in an azure VM. In order for the automated unit testing to work, you will also 
+need to install VS2015.
 
 1. Browse to your azure portal and select Virtual machines
 
@@ -137,8 +138,8 @@ create and configure your private agent in an azure VM.
     <img src="media/2017-03-16_15-13-22.jpg" width="624" />
 	
 ### Task 3: Configure the private VSTS build and release agent machine
-To configure the private VSTS build and release agent, you will need to install SSMS and download and configure the 
-VSTS agent.
+To configure the private VSTS build and release agent, you will need to install SSMS, VS2015 (so unit tests will build correctly) 
+and download and configure the VSTS agent.
 
 #### Installing Sql Server Management Studio
 1. RDP into your agent machine using the username and password you picked when creating the VM
@@ -161,6 +162,8 @@ click Download SQL Server Management Studio (16.5.3)
 5. Wait for SSMS installation to finish, then click Close
 
    <img src="media/2017-03-16_16-00-02.jpg" width="348" />
+   
+6. Download and install VS2015 onto this machine
 
 #### Installing and configuring VSTS Agent
 1. Browse to your VSTS instance and select the team project you created earlier
