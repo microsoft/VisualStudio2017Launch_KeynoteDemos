@@ -722,12 +722,12 @@ and click Connect
    
 10. Click on Configure database connection
 
-   <img src="media/2017-03-17_16-14-20.jpg" width="640" />
+    <img src="media/2017-03-17_16-14-20.jpg" width="640" />
    
 11. Enter (localdb)\ProjectsV13 for Server Name, Authentiation, choose Windows Authentication, under Database Name select 
 BikeSharing.Services.RidesName and click OK
 
-   <img src="media/2017-03-17_16-15-26.jpg" width="640" />
+    <img src="media/2017-03-17_16-15-26.jpg" width="640" />
    
    
 This finishes configuring the demo machine.
