@@ -67,7 +67,7 @@ server and two Azure databases for the Dev and Prod deployment environments.
 
    <img src="media/2017-03-16_13-36-00.jpg" width="624" />
    
-2. Give your project a name and click Create
+2. Give your project a name (RedgateDemoProj) and click Create
 
    <img src="media/2017-03-16_13-38-22.jpg" width="624" />
    
@@ -382,11 +382,11 @@ For Artifact Name type in drop. For Artifact Type select Server
 
     <img src="media/2017-03-17_11-17-18.jpg" width="640" />
 	
-31. Add the follwoing variables. DatabaseServer, DatabaseName, DatabaseUserName, DatabasePassword, ShadowInstanceName
+31. Add the following variables. DatabaseServer, DatabaseName, DatabaseUserName, DatabasePassword, ShadowInstanceName
 
     <img src="media/2017-03-17_11-22-03.jpg" width="640" />
 	
-	To get the database server, from your azure portal, browse to the dev database.
+	To get the database server name and database name, from your azure portal, browse to the dev database.
 	
 	<img src="media/2017-03-17_11-24-29.jpg" width="640" />
 	
@@ -423,6 +423,186 @@ For Artifact Name type in drop. For Artifact Type select Server
 
 
 ### Task 6: Create release pipeline
+The Redgate demo has a release pipeline that deploys an resource group based on an ARM template, deploys the web app to the resource group, deploys the
+database schema changes, runs a quick Web Performace Test on the site and then runs some Selenium Automated UI Tests on the new environment (This demo doesn't
+actually run selenium tests, it just simulates it). It does this deployment to both the Dev and Prod environment.
+
+1. Browse to your VSTS project and click on Buil & Release tab and select Release
+
+   <img src="media/2017-03-17_13-25-39.jpg" width="640" />
+   
+2. Click on New definition
+
+   <img src="media/2017-03-17_13-26-50.jpg" width="640" />
+   
+3. Click on Aure App Service Deployment template and then click Next
+
+   <img src="media/2017-03-17_13-29-18.jpg" width="640" />
+   
+4. Check Continuous deployment(create release and deploy whenever a build completes) and select the Default queue and click Create
+
+   <img src="media/2017-03-17_13-30-19.jpg" width="640" />
+   
+5. Rename the environment Dev
+
+   <img src="media/2017-03-17_13-32-44.jpg" width="640" />
+   
+6. Chose your Azure Subscrption. For App Service name and click Authorize
+
+   <img src="media/2017-03-17_13-35-44.jpg" width="640" />
+   
+7. Click on App Service name and enter $(WebSiteName)
+
+   <img src="media/2017-03-17_13-37-13.jpg" width="640" />
+   
+8. Click on Add tasks
+
+   <img src="media/2017-03-17_13-38-10.jpg" width="640" />
+   
+9. Click the Add button next to the Azure Resource Group Deployment task
+
+   <img src="media/2017-03-17_13-39-31.jpg" width="640" />
+   
+10. Click the Close button
+
+    <img src="media/2017-03-17_13-40-36.jpg" width="640" />
+   
+11. Drag the Azure Deployment task above Deploy Azure App Service task
+
+    <img src="media/2017-03-17_13-41-23.jpg" width="640" />
+	
+12. Select your subscription in Azure subscriptions.  
+    Enter $(WebSiteName) for Resource group.  
+	Select West US for Location. 
+	Select $(System.DefaultWorkingDirectory)/RedgateDemoProj-Visual Studio-CI/drop/BikeSharing360.IaC/WebSite.json for Template.
+	Select $(System.DefaultWorkingDirectory)/RedgateDemoProj-Visual Studio-CI/drop/BikeSharing360.IaC/WebSite.parameters.json for Template parameters
+	Enter -hostingPlanName $(WebSiteName) for Override template parameters
+
+    <img src="media/2017-03-17_13-47-22.jpg" width="640" />
+	
+13. Click Add tasks
+
+    <img src="media/2017-03-17_13-48-54.jpg" width="640" />
+	
+13. Scroll down and click the Add button next to Deploy ReadyRoll Database Package and then click Close
+
+    <img src="media/2017-03-17_13-49-40.jpg" width="640" />
+	
+13. Click on Deploy to
+
+    <img src="media/2017-03-17_13-51-48.jpg" width="640" />
+	
+14. For Package to Deploy, enter $(System.DefaultWorkingDirectory)/RedgateDemoProj-Visual Studio-CI/drop/Release/BikeSharing.Services.RidesName_DeployPackage.ps1
+    For Release Version, enter $(Release.ReleaseId)
+	For Target SQL Server Instance, enter $(DatabaseServer)
+	For Target Database Name, enter $(DatabaseName)
+	For Database Username enter $(DatabaseUserName)
+	For Database Password enter $(DatabasePassword)
+	
+    <img src="media/2017-03-17_13-54-52.jpg" width="640" />
+	
+15. Click on Add tasks
+
+    <img src="media/2017-03-17_14-02-03.jpg" width="640" />
+	
+16. Click on Test, then click on the Add button next to Cloud-based Web Performance Test and then click Close
+
+    <img src="media/2017-03-17_14-03-18.jpg" width="640" />
+	
+17. Click on Quick Web Performance Test
+
+    <img src="media/2017-03-17_14-05-07.jpg" width="640" />
+	
+18. For Website URL enter http://vs2017launchbikeshare360d.azurewebsites.net/
+    For Test Name enter Homepage
+	
+	<img src="media/2017-03-17_14-06-42.jpg" width="640" />
+	
+19. Click on Add tasks
+
+    <img src="media/2017-03-17_14-07-52.jpg" width="640" />
+	
+20. Click on Test then scroll down and click the Add button next to Visual Studio Test and then click Close
+
+    <img src="media/2017-03-17_14-09-06.jpg" width="640" />
+	
+21. Click on Test Assemblies
+
+    <img src="media/2017-03-17_14-10-59.jpg" width="640" />
+	
+22. For title enter Selenium Automated UI Tests: Dev for the title
+    Select Version 2
+	For Test filter criteria enter TestCategory=UITest
+	For Test runtitle under REorting options, enter Selenium Dev UI Tests
+
+    <img src="media/2017-03-17_14-13-32.jpg" width="640" />
+    <img src="media/2017-03-17_14-16-22.jpg" width="640" />
+	
+23. Click on the ellipses on the Dev environment and select Configure variables
+
+    <img src="media/2017-03-17_14-18-18.jpg" width="640" />
+	
+24. Enter bikesharing-services-ridesname_dev for the DatabaseName
+    For WebSiteName, enter VS2017LaunchBikeShare360D
+	click OK
+
+    <img src="media/2017-03-17_14-41-15.jpg" width="640" />
+	
+25. Click on Variables
+
+    <img src="media/2017-03-17_14-21-58.jpg" width="640" />
+	
+26. Enter in variables for DatabaseServer, DatabaseUserName and DatabasePassword.  You can find the database server name by browsing to your Azure portal
+browsing to your dev database.  The DatabaseUserName and DatabasePassword are what you set them when you created the database server.
+
+    <img src="media/2017-03-17_14-25-00.jpg" width="640" />
+    <img src="media/2017-03-17_14-25-26.jpg" width="640" />
+	
+27. Click on Environments
+
+    <img src="media/2017-03-17_14-28-10.jpg" width="640" />
+	
+28. Click on Add enviroment and then select Clone selected Environments
+
+    <img src="media/2017-03-17_14-29-10.jpg" width="640" />
+	
+29. Select Specific users, then enter yourself as an approver.  Make sure Default is selected for the agent queue and click Create
+
+    <img src="media/2017-03-17_14-30-48.jpg" width="640" />
+	
+30. Rename environment to Prod
+
+    <img src="media/2017-03-17_14-32-21.jpg" width="640" />
+	
+31. Click on Quick Web Performance Test Homepage
+
+    <img src="media/2017-03-17_14-33-58.jpg" width="640" />
+	
+32. For Website Url enter http://vs2017launchbikeshare360p.azurewebsites.net/
+
+    <img src="media/2017-03-17_14-36-02.jpg" width="640" />
+	
+33. Click on the ellipses in the Prod environment and select Configure variables
+
+    <img src="media/2017-03-17_14-36-53.jpg" width="640" />
+	
+34. For DatabaseName enter bikesharing-services-ridesname_prod
+    For WebSiteName enter VS2017LaunchBikeShare360P
+	Click OK
+	
+    <img src="media/2017-03-17_14-38-32.jpg" width="640" />	
+	
+35. Click Save
+	
+    <img src="media/2017-03-17_14-45-03.jpg" width="640" />	
+	
+36. Click OK
+
+    <img src="media/2017-03-17_14-45-48.jpg" width="640" />	
+	
+This completes building out the release pipeline. DO NOT KICK OFF A RELEASE AT THIS TIME.  The release pipeline will fail until we configure the databases
+to use Readyroll migrations.  We will do this in the next section.
+
 
 ## VS Configuration
 
