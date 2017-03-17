@@ -226,6 +226,28 @@ the resource group you created for your build and release VM
 
    <img src="media/2017-03-17_10-00-10.jpg" width="640" />
    
+9. Click Refresh
+
+   <img src="media/2017-03-17_9-49-06x.jpg" width="640" />
+   
+10. Click Add
+
+   <img src="media/2017-03-17_10-03-49.jpg" width="640" />
+   
+11. Enter bikesharing-services-ridesname_prod for Database name, choose your subscription and select Use existing Resource group and select 
+the resource group you created for your build and release VM
+   
+    <img src="media/2017-03-17_10-06-37.jpg" width="640" />
+   
+12. Make sure bikesharing-services-dbserver is selected under Server and click Create
+
+    <img src="media/2017-03-17_10-07-15.jpg" width="640" />
+
+13. Wait for DB to be created
+
+    <img src="media/2017-03-17_10-09-19.jpg" width="640" />
+
+2017-03-17_10-07-15.jpg
 ### Task 5: Create build definition
 1. Browse to your VSTS demo project and click on the build tab
 
