@@ -727,58 +727,12 @@ and click Connect
 11. Enter (localdb)\ProjectsV13 for Server Name, Authentiation, choose Windows Authentication, under Database Name select 
 BikeSharing.Services.RidesName and click OK
 
-<img src="media/2017-03-17_16-15-26.jpg" width="640" />
+   <img src="media/2017-03-17_16-15-26.jpg" width="640" />
    
    
-   
+This finishes configuring the demo machine.
 
-   
-   
-   
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-3.  In the ReadyRoll window at the bottom click the button labeled **Set the target database connection string for this project**
-    
-    <img src="media/image3.png" width="541" height="285" />
-
-4.  Use the following settings for setting the target database
-    connection:
-
-    - **Server name**: git pus
-
-    - **Authentication**: SQL Server Authentication
-
-    - **User name**: MyBikes
-
-    - **Password**: BikesShare360@1
-
-    - **Database name**: bikesharing-services-ridesName\_dev
-        
-        <img src="media/image4.PNG" width="488" height="274" />
-
-5.  Click **Test Connection**.
-
-6.  Click **OK**.
-
-7.  Open the SQL Server Object Explorer
-
-8.  Click the button labeled **Add SQL Server**.
-
-    <img src="media/image5.PNG" width="164" height="190" />
-
-9.  Enter the following:
-
-    - **Server name**: bikesharing360hlwkn37yuj4vo.database.windows.net
-
-    - **Authentication**: SQL Server Authentication
-
-    - **User name**: MyBikes
-
-    - **Password**: BikesShare360@1
-
-    - **Database name**: master
-
-        <img src="media/image6.PNG" width="488" height="273" />
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Task 3: Reset databases
 
