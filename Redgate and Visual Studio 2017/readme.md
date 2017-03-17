@@ -606,10 +606,10 @@ to use Readyroll migrations.  We will do this in the next section.
 
 ## Demo machine configuration
 
-Make sure your demo machine has git installed as well as Visual Studio 2017 with the Data storage and processing workload”
+Make sure your demo machine has git installed as well as Visual Studio 2017 with the Data storage and processing workload
 installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgate SQL Prompt and Redgate SQL Search).
 
-### Clone Repo
+### Task 1: Clone Repo
 1. Browse to your VSTS project and click on the Code tab
 
    <img src="media/2017-03-17_14-58-11.jpg" width="640" />	
@@ -633,19 +633,8 @@ installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgat
 6. Choose where you want to clone the repo and click Clone
 
    <img src="media/2017-03-17_15-09-11.jpg" width="640" />
+   
 
-
-### Task 1: Reset demo repository
-
-1.  Open the command prompt or PowerShell
-
-2.  git clone
-    <https://github.com/abelsquidhead/VS2017VSTSKeynoteDemo>
-
-3.  git push origin +5a5d6:master (please use the hash in git before you
-    made your changes)
-
-4.  git reset --hard origin/master
 
 ### Task 2: Configure Visual Studio
 
