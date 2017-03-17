@@ -676,10 +676,64 @@ and password you create when you created the database server in Azure, click Rem
 and click Connect
 
    <img src="media/2017-03-17_15-46-58.jpg" width="640" />
-
- 
    
+9. Open up the cloud database you just added to verify that your dev and prod databases are there
+
+   <img src="media/2017-03-17_15-51-04.jpg" width="640" />
+ 
+### Task 3: Configure the Dev and Prod database to use ReadyRoll migrations
   
+1. Click on Configure database connection
+
+   <img src="media/2017-03-17_16-03-23.jpg" width="640" />
+   
+2. Click on Show connection Properties
+
+   <img src="media/2017-03-17_16-04-23.jpg" width="640" />
+   
+3. Click on the database server you set in Azure under Recent Connections, then change the Database name to the dev database and click OK
+
+   <img src="media/2017-03-17_16-04-23.jpg" width="640" />
+   
+4. Click Deploy BikeSharing.Services.RidesName in the ReadyRoll window
+
+   <img src="media/2017-03-17_16-07-17.jpg" width="640" />
+   
+5. Click the ReadyRoll Core Edition tab
+
+   <img src="media/2017-03-17_16-08-31.jpg" width="640" />
+   
+6. Click on Configure database connection
+
+   <img src="media/2017-03-17_16-09-31.jpg" width="640" />
+   
+7. Click on the dev database under recent connections, then under Database name, select the prod database and click OK
+
+   <img src="media/2017-03-17_16-10-38.jpg" width="640" />
+ 
+8. In the ReadyRoll window, click on Deploy BikeSharing.Services.RidesName
+
+   <img src="media/2017-03-17_16-12-18.jpg" width="640" />
+   
+9. Click on the ReadyRoll Core Edition tab
+
+   <img src="media/2017-03-17_16-13-35.jpg" width="640" />
+   
+   
+10. Click on Configure database connection
+
+   <img src="media/2017-03-17_16-14-20.jpg" width="640" />
+   
+11. Enter (localdb)\ProjectsV13 for Server Name, Authentiation, choose Windows Authentication, under Database Name select 
+BikeSharing.Services.RidesName and click OK
+
+<img src="media/2017-03-17_16-15-26.jpg" width="640" />
+   
+   
+   
+
+   
+   
    
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
