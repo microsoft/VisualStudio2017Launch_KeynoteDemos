@@ -247,7 +247,7 @@ the resource group you created for your build and release VM
 
     <img src="media/2017-03-17_10-09-19.jpg" width="640" />
 
-2017-03-17_10-07-15.jpg
+
 ### Task 5: Create build definition
 1. Browse to your VSTS demo project and click on the build tab
 
