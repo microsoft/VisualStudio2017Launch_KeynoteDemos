@@ -196,6 +196,17 @@ be used for the Prod environment.
 1. Browse to the Azure portal and click SQL databases
 
    <img src="media/2017-03-17_8-30-11.jpg" width="640" />
+   
+2. Click Add
+
+   <img src="media/2017-03-17_9-49-06.jpg" width="640" />
+   
+3. Enter bikesharing-services-ridesname_dev for Database name, choose your subscription and select Use existing Resource group and select 
+the resource group you created for your build and release VM
+
+   <img src="media/2017-03-17_9-50-43.jpg" width="640" />
+   
+4. 
 
    
 ### Task 5: Create build definition
