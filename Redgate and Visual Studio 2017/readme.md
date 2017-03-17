@@ -659,6 +659,18 @@ installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgat
    
    For Database Name enter BikeSharing.SErvices.RidesName and click OK
    <img src="media/2017-03-17_15-30-01.jpg" width="640" />
+  
+5. click the Deploy in the readyroll window
+   <img src="media/2017-03-17_15-30-01x.jpg" width="640" />
+
+6. Open the BikeSharing.Services.RidesName database up and make sure the baseline database deployed to your local database
+
+   <img src="media/2017-03-17_15-40-15.jpg " width="640" />
+ 
+   
+  
+   
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 3.  In the ReadyRoll window at the bottom click the button labeled **Set the target database connection string for this project**
     
