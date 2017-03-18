@@ -451,7 +451,8 @@ actually run selenium tests, it just simulates it). It does this deployment to b
 
    <img src="media/2017-03-17_13-35-44.jpg" width="640" />
    
-7. Click on App Service name and enter $(WebSiteName)
+7. For App Service name and enter $(WebSiteName), for Packog or Folder browse to the BikeShare360.zip file with the ellipses. It should be something
+   similar to $(System.DefaultWorkingDirectory)/RedgateDemoProj-Visual Studio-CI/drop/BikeSharing360.zip
 
    <img src="media/2017-03-17_13-37-13.jpg" width="640" />
    
@@ -542,8 +543,9 @@ actually run selenium tests, it just simulates it). It does this deployment to b
 
     <img src="media/2017-03-17_14-18-18.jpg" width="640" />
 	
-24. Enter bikesharing-services-ridesname_dev for the DatabaseName
-    For WebSiteName, enter VS2017LaunchBikeShare360D
+24. Enter bikesharing-services-ridesname_dev for the DatabaseName.
+    For WebSiteName, enter VS2017LaunchBikeShare360D (this name does need to be unique so you may need to give your website a unique name. 
+	If you need to change the website name, make sure you use the same name when you use it in the website url).
 	click OK
 
     <img src="media/2017-03-17_14-41-15.jpg" width="640" />
