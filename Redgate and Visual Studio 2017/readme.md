@@ -658,8 +658,7 @@ installed.  Make sure all 3 Redgate tools are checked (Redgate ReadyRoll, Redgat
    If there isn't, create one by right clicking the Databases folder and select Add New Database
    <img src="media/2017-03-17_15-28-56.jpg" width="640" />
 
-   
-   For Database Name enter BikeSharing.SErvices.RidesName and click OK
+   For Database Name enter BikeSharing.Services.RidesName and click OK
    <img src="media/2017-03-17_15-30-01.jpg" width="640" />
   
 5. click the Deploy in the readyroll window
@@ -734,39 +733,11 @@ BikeSharing.Services.RidesName and click OK
    
 This finishes configuring the demo machine.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-### Task 3: Reset databases
-
-
-1.  Open the SQL Server Object Explorer in Visual Studio
-
-2.  Expand the following:
-
-    - bikesharing360hlwkn37yuj4vo.database.windows.net
-
-    - Databases
-
-    - bikesharing-services-ridesName
-
-    - Tables
-
-    - dbo.bikes
-
-    - Columns
-
-      <img src="media/image7.PNG" width="490" height="270" />
-
-3.  If there are any columns other than these ones listed **(Id, SerialNumber, InCirculationSince, StationId)**, right click the column and click **Delete**.
-
-4.  Repeat these steps for **bikesharing-services-ridesName\_dev**.
-
-
 ## Demo
 
-1. Open the project **BikeSharing.Services.RidesName** in your Visual Studio 2017
+1. Open the solution **BikeSharing360Redgate.sln** in your Visual Studio 2017
 
-   <img src="media/image8.png" width="624"/>  
+   <img src="media/2017-03-27_10-33-12.jpg" width="640"/>  
 
    >**Talking Point**: Managing your database changes and incorporating them into your DevOps pipeline has always been difficult. Keeping track of what scripts need to be run, getting the database states just right is a pain and very error prone. However, there are some fantastic tools from Redgate which help us manage our database changes as well as creating a fully automated CI/CD Pipeline. With each copy of Visual Studio Enterprise, you get Ready Roll, SQL Prompt, and SQL Search for free. Now, with VSE and the included Redgate tools, you can check in and out your database schema right alongside your source code. You can also easily create your CI/CD pipeline which will seamlessly deploy those changes to the database’s in all your environments.
 
@@ -862,3 +833,33 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
     >**Talking Point**: Now our build is linked to RM, so when we get a successful build, it kicks off our CD pipeline where we can easily deploy the database changes using prebuild release ReadyRoll Task. Once again, the release takes a while so let’s look at a prior release. We can see exactly what tables were changed, what migrations were ran. We can look at the Data script tab and see the exact script used as well. 
    
+
+
+
+
+   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+### Task 3: Reset databases
+
+
+1.  Open the SQL Server Object Explorer in Visual Studio
+
+2.  Expand the following:
+
+    - bikesharing360hlwkn37yuj4vo.database.windows.net
+
+    - Databases
+
+    - bikesharing-services-ridesName
+
+    - Tables
+
+    - dbo.bikes
+
+    - Columns
+
+      <img src="media/image7.PNG" width="490" height="270" />
+
+3.  If there are any columns other than these ones listed **(Id, SerialNumber, InCirculationSince, StationId)**, right click the column and click **Delete**.
+
+4.  Repeat these steps for **bikesharing-services-ridesName\_dev**.
