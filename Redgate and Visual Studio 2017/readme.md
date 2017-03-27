@@ -743,9 +743,11 @@ This finishes configuring the demo machine.
 
 2. Right click solution and **add | new | project**
 
-   <img src="media/image9.png" width="624"/>                                         
+   <img src="media/2017-03-27_10-41-58.jpg" width="640"/>                                         
    
-   >**Talking Point**: To create a database project from scratch is super easy, just right click your solution, add new project, click on the SQL server node in the tree and select ReadyRoll SQL Server Database project
+   >**Talking Point**: To create a database project from scratch is super easy, just right click your solution, 
+   add new project, click on the SQL server node in the tree and select ReadyRoll SQL Server Database project.
+   We've already created a ReadyRoll project so let's just jump into it (Click Cancel)
    
 3. Expand **bikesharing-services-ridesName\_dev** database in SQL Server Object Explorer. Expand the Tables folder. 
 
