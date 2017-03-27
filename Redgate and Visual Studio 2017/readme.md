@@ -91,7 +91,7 @@ server and two Azure databases for the Dev and Prod deployment environments.
 
 This demo works best if you create your own private VSTS build and release agent.  The following steps describe how to 
 create and configure your private agent in an azure VM. In order for the automated unit testing to work, you will also 
-need to install VS2015.
+need to install VS2015.  The ReadyRoll tasks require .NET 3.5 installed as well.
 
 1. Browse to your azure portal and select Virtual machines
 
@@ -138,10 +138,10 @@ need to install VS2015.
     <img src="media/2017-03-16_15-13-22.jpg" width="624" />
 	
 ### Task 3: Configure the private VSTS build and release agent machine
-To configure the private VSTS build and release agent, you will need to install SSMS, VS2015 (so unit tests will build correctly) 
+To configure the private VSTS build and release agent, you will need to install SSMS, VS2015 (so unit tests will build correctly)
 and download and configure the VSTS agent.
 
-#### Installing Sql Server Management Studio
+#### Installing Sql Server Management Studio and install VS2015
 1. RDP into your agent machine using the username and password you picked when creating the VM
 
    <img src="media/2017-03-16_15-15-52.jpg" width="228" />
@@ -164,6 +164,7 @@ click Download SQL Server Management Studio (16.5.3)
    <img src="media/2017-03-16_16-00-02.jpg" width="348" />
    
 6. Download and install VS2015 onto this machine
+
 
 #### Installing and configuring VSTS Agent
 1. Browse to your VSTS instance and select the team project you created earlier
@@ -853,13 +854,14 @@ This finishes configuring the demo machine.
     >**Talking Point**: Before checking in our code, let's verify that our script is correct.  Notice how the ReadyRoll
     window now shows the script with a big green check.
 
-13. Check code back into **VSTS** and go to VSTS portal and check out the build in progress.
+13. Check code back into **VSTS** and go to VSTS portal and check out the build in progress and also previous succesful
+    build report
 
     <img src="media/2017-03-27_11-24-38.jpg width="640" />
 
-    <img src="media/image20.png" width="624"/>
+    <img src="media/2017-03-27_13-53-30.jpg" width="640"/>
 
-    <img src="media/image21.png" width="624"/>
+    <img src="media/2017-03-27_13-54-53.jpg" width="640"/>
    
     >**Talking Point**: So now that we made those changes, let’s check in our code. This will kick off our build. As you can see, 
     the build is just a simple straight forward build. The build takes a while so let’s again take a look at a build that has 
@@ -868,9 +870,9 @@ This finishes configuring the demo machine.
 
 14. Go to **release**, show the task. Click on old release, show the database deployment preview section and also the Database script tab.
 
-    <img src="media/image22.png" width="624" /> 
+    <img src="media/2017-03-27_13-56-43.jpg" width="640" /> 
                                                              
-    <img src="media/image23.png" width="624" />  
+    <img src="media/2017-03-27_13-57-46.jpg" width="640" />  
                                                              
     <img src="media/image24.png" width="624" />
 
