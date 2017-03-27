@@ -874,39 +874,12 @@ This finishes configuring the demo machine.
                                                              
     <img src="media/2017-03-27_13-57-46.jpg" width="640" />  
                                                              
-    <img src="media/image24.png" width="624" />
+    <img src="media/image24.png" width="640" />
 
     >**Talking Point**: Now our build is linked to RM, so when we get a successful build, it kicks off our CD pipeline where we 
     can easily deploy the database changes using prebuild release ReadyRoll Task. Once again, the release takes a while so let’s 
     look at a prior release. We can see exactly what tables were changed, what migrations were ran. We can look at the Data script tab and see the exact script used as well. 
    
-
-
-
-
-   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-### Task 3: Reset databases
-
-
-1.  Open the SQL Server Object Explorer in Visual Studio
-
-2.  Expand the following:
-
-    - bikesharing360hlwkn37yuj4vo.database.windows.net
-
-    - Databases
-
-    - bikesharing-services-ridesName
-
-    - Tables
-
-    - dbo.bikes
-
-    - Columns
-
-      <img src="media/image7.PNG" width="490" height="270" />
-
-3.  If there are any columns other than these ones listed **(Id, SerialNumber, InCirculationSince, StationId)**, right click the column and click **Delete**.
-
-4.  Repeat these steps for **bikesharing-services-ridesName\_dev**.
+## Resetting demo
+To reset the demo, browse to dev prod and local database and delete the extra column you added.  Then removed the 002 migration script
+from Source and check everything back in.
