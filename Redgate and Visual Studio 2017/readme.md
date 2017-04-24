@@ -353,8 +353,7 @@ for Arguments
 
     <img src="media/2017-03-17_11-07-53.jpg" width="640" />
 	
-26. For Display name type Copy Publish Artifact: drop. For Contents type BikeSharing.Services.RidesName/bin/$(BuildConfiguration). 
-For Artifact Type select Server.
+26. For Display name type Copy Publish Artifact: drop. For Contents type BikeSharing.Services.RidesName/bin/$(BuildConfiguration). For Artifact Name type in drop. For Artifact Type select Server.
 
     <img src="media/2017-03-17_11-09-08.jpg" width="640" />
 	
