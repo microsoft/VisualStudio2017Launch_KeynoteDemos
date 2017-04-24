@@ -297,7 +297,7 @@ for Arguments
 
 11. In MSBuild Arguments type in:
 
-    /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\" /p:TargetServer="$(DatabaseServer)" /p:TargetDatabase="$(DatabaseName)" /p:TargetUserName="$(DatabaseUserName)" /p:TargetPassword="$(DatabasePassword)" /p:ShadowServer="(localdb)\$(ShadowInstanceName)" /p:GenerateSqlPackage=True /p:SkipDriftAnalysis=True
+    /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\" /p:TargetServer="$(DatabaseServer)" /p:TargetDatabase="$(DatabaseName)" /p:TargetUserName="$(DatabaseUserName)" /p:TargetPassword="$(DatabasePassword)" /p:ShadowServer="(localdb)\\$(ShadowInstanceName)" /p:GenerateSqlPackage=True /p:SkipDriftAnalysis=True
 
     <img src="media/2017-03-17_10-40-54.jpg" width="640" />
 	
