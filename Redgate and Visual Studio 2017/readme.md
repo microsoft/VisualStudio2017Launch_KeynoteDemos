@@ -297,7 +297,9 @@ for Arguments
 
 11. In MSBuild Arguments type in:
 
+
     /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\" /p:TargetServer="$(DatabaseServer)" /p:TargetDatabase="$(DatabaseName)" /p:TargetUserName="$(DatabaseUserName)" /p:TargetPassword="$(DatabasePassword)" /p:ShadowServer="(localdb)\\$(ShadowInstanceName)" /p:GenerateSqlPackage=True /p:SkipDriftAnalysis=True
+
 
     <img src="media/2017-03-17_10-40-54.jpg" width="640" />
 	
@@ -353,8 +355,7 @@ for Arguments
 
     <img src="media/2017-03-17_11-07-53.jpg" width="640" />
 	
-26. For Display name type Copy Publish Artifact: drop. For Contents type BikeSharing.Services.RidesName/bin/$(BuildConfiguration). 
-For Artifact Type select Server.
+26. For Display name type Copy Publish Artifact: drop. For Contents type BikeSharing.Services.RidesName/bin/$(BuildConfiguration). For Artifact Name type in drop. For Artifact Type select Server.
 
     <img src="media/2017-03-17_11-09-08.jpg" width="640" />
 	
@@ -464,7 +465,7 @@ actually run selenium tests, it just simulates it). It does this deployment to b
 
    <img src="media/2017-03-17_13-35-44.jpg" width="640" />
    
-7. For App Service name and enter $(WebSiteName), for Packog or Folder browse to the BikeShare360.zip file with the ellipses. It should be something
+7. For App Service name and enter $(WebSiteName), for Package or folder browse to the BikeShare360.zip file with the ellipses. It should be something
    similar to $(System.DefaultWorkingDirectory)/RedgateDemoProj-Visual Studio-CI/drop/BikeSharing360.zip
 
    <img src="media/2017-03-17_13-37-13.jpg" width="640" />
