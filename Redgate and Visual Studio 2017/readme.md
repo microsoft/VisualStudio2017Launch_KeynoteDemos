@@ -463,7 +463,7 @@ actually run selenium tests, it just simulates it). It does this deployment to b
 
    <img src="media/2017-03-17_13-35-44.jpg" width="640" />
    
-7. For App Service name and enter $(WebSiteName), for Packog or Folder browse to the BikeShare360.zip file with the ellipses. It should be something
+7. For App Service name and enter $(WebSiteName), for Package or folder browse to the BikeShare360.zip file with the ellipses. It should be something
    similar to $(System.DefaultWorkingDirectory)/RedgateDemoProj-Visual Studio-CI/drop/BikeSharing360.zip
 
    <img src="media/2017-03-17_13-37-13.jpg" width="640" />
